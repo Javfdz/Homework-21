@@ -5,6 +5,11 @@ header {
   background-color: #373738;
   padding: 15px;
 }
+.logo {
+  height: 250px;
+  width: 250px;
+  vertical-align: auto;
+}
 header ul {
   float: right;
   color: white;
@@ -29,7 +34,7 @@ header p {
 }
 button {
   padding: 15px;
-  background-color: #373738;
+  background-color: #e0e0e7;
   color: white;
   font-size: 15px;
   border-radius: 4px;
@@ -86,7 +91,10 @@ footer li {
 }
 .img1 {
   grid-area: img1;
-  height: fit-content;
+  max-width:250%;
+  height:auto;
+  display: block;
+  margin: 0 auto;
 }
 .img2 {
   grid-area: img2;
